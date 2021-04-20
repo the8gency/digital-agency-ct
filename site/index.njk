@@ -71,10 +71,9 @@ description: cT² is a Digital Agency. Through hard work and sacrifice we make b
                     {% for client in clients %}
                         <div class="col">
                             <div class="card">
-                                <img class="card-img-top" src="{{ client.logo }}" alt="{{ client.name }}">
+                                <img class="card-img-top" src="{{ client.img | url }}" alt="{{ client.name }}" width="150">
                                 <div class="card-body">
                                     <h5 class="card-title">{{ client.name }}</h5>
-                                    <a href="#" class="btn btn-primary">Read more</a>
                                 </div>
                             </div>
                         </div>
