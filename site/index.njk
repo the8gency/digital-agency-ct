@@ -1,59 +1,86 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: Home
-  order: 1
+key: Home
+order: 1
 title: Home
-description: Get great at designing amazing websites and mobile applications with high-performance code and neat graphics. In the Associate Degree in Computer Programming you will learn all the tricks of the digital trade.
+description: cT² is a Digital Agency. Through hard work and sacrifice we make bugs disappear.
 ---
-{% include "components/jumbotron.njk" %}
-
-<div class="container-fluid">
-    <section class="section services">
-            <div class="row">
-{#                 {% for service in collections.services %}
-                <div class="col-6">{{ service.name }}</div>
-                test
-                {% endfor %} #}
-            </div>
-    </section>
-
-    <section class="section team">
-        <div class="row">
-            {% for member in team %}
-            <div class="col-6">
-                <h2>{{ member.firstName }} {{ member.lastName }}</h2>
-                <p>{{ member.jobFunction }}</p>
-            </div>
-            {% endfor %}
-        </div>
-<<<<<<< HEAD
-    </div>
+<div class="container">
+    {% include "components/jumbotron.njk" %}
 </div>
-  {# <ul>
-    {% for client in clients %}
-        <li class="clients__list--item">
-            <img src="{{client.img | url}}" alt="clients logo">
-        </li>
-    {% endfor %}
-  </ul> #}
-=======
-    </section>
 
-    <section class="section contact">
+<hr class="my-5">
+
+<div class="container">
+    <section class="services"> <!-- Sections could probably use extra margins -->
         <div class="row">
             <div class="col">
-                <button class="btn cta">Contact Us CTA</button>
+                <h2 class="display-4">Services</h2>
+                <div class="row">
+                    {% for service in collections.services %}
+                    <div class="col">
+                        <div class="card">
+                            <h5 class="card-title">{{ service.data.title }}</h5>
+                            <p class="card-text">{{service.data.summary}}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </section>
 
-{#     <section class="section clients">
+    <section class="team">
         <div class="row">
-            {% for client in collections.clients %}
-                Werkt! Clients
-            {% endfor %}
+            <div class="col">
+                <h2 class="display-4">Team</h2>
+                <div class="row">
+                    {% for person in team %}
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="{{ person.img }}" alt="{{ person.firstName }} {{ person.lastName }}">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ person.firstName }} {{ person.lastName }}</h5>
+                                    <p class="card-text">{{ person.jobFunction }}</p>
+                                    <a href="#" class="btn btn-primary">Email {{person.firstName}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
         </div>
-    </section> #}
+    </section>
+
+    <section class="contact">
+        <div class="row">
+            <div class="col">
+                <h2 class="display-4">Contact</h2>
+                <p>Contacting people can be fun, and social</p>
+                <a href="#" class="btn btn-primary">Contact us</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="clients">
+        <div class="row">
+            <div class="col">
+                <h2 class="display-4">Clients</h2>
+                <div class="row">
+                    {% for client in clients %}
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="{{ client.logo }}" alt="{{ client.name }}">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ client.name }}</h5>
+                                    <a href="#" class="btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
->>>>>>> 258fb1f11c4a1f4e182454d8efb455cd3c862608
