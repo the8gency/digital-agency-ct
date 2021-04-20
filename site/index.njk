@@ -8,11 +8,26 @@ description: Get great at designing amazing websites and mobile applications wit
 ---
 {% include "components/jumbotron.njk" %}
 
-<div class="container">
-    <div class="row">
-        <div class="col-6">
-            <h1>HELLO</h1>
+<div class="container-fluid">
+    <section class="section services">
+            <div class="row">
+{#                 {% for service in collections.services %}
+                <div class="col-6">{{ service.name }}</div>
+                test
+                {% endfor %} #}
+            </div>
+    </section>
+
+    <section class="section team">
+        <div class="row">
+            {% for member in team %}
+            <div class="col-6">
+                <h2>{{ member.firstName }} {{ member.lastName }}</h2>
+                <p>{{ member.jobFunction }}</p>
+            </div>
+            {% endfor %}
         </div>
+<<<<<<< HEAD
     </div>
 </div>
   {# <ul>
@@ -22,3 +37,23 @@ description: Get great at designing amazing websites and mobile applications wit
         </li>
     {% endfor %}
   </ul> #}
+=======
+    </section>
+
+    <section class="section contact">
+        <div class="row">
+            <div class="col">
+                <button class="btn cta">Contact Us CTA</button>
+            </div>
+        </div>
+    </section>
+
+{#     <section class="section clients">
+        <div class="row">
+            {% for client in collections.clients %}
+                Werkt! Clients
+            {% endfor %}
+        </div>
+    </section> #}
+</div>
+>>>>>>> 258fb1f11c4a1f4e182454d8efb455cd3c862608
