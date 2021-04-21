@@ -1620,6 +1620,21 @@ mark,
   width: 85%;
 }
 
+.banner {
+  background-image: url("../../static/images/banner-bg.jpg");
+  height: 20rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .btn {
   background-color: #4CAF50;
   border: none;
@@ -1913,8 +1928,7 @@ body {
 }
 
 .footer {
-  border-top: 1px solid #e9ecef;
-  background: #543195;
+  background: #111111;
   color: #f8f9fa;
   padding: 72px 0;
 }
