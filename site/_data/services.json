@@ -1,31 +1,31 @@
 [
     {
  
-        "title": "Brand Identity",
-        "img": "/static/images/placeholder.png", 
-        "summary": "Transform a legacy digital product or launch a brand new one.",
-        "details":""
+        "title": "Websites",
+        "img": "/static/images/website.svg", 
+        "summary": "Having a clear, user friendly and fast website is a necessity for any organization.",
+        "details":"But let's not stop there. At cT² we equip every website with an easy to use and powerfull Content-Management System (CMS). This enables you to have full control over the content, and edit it with a single mouse click. This ensures your website is always up to date."
     },
     {
  
         "title": "Brand Identity",
-        "img": "/static/images/placeholder.png",
+        "img": "/static/images/brand-identity.svg",
         "summary": "Transform a legacy digital product or launch a brand new one.",
-        "details":""
+        "details":"A brand is a way for consumers to recognize your organization. We develop your personal brand and colors, or modernize your current Brand Identity to make your organization stand out."
     },
     {
  
-        "title": "Web design",
-        "img": "/static/images/placeholder.png",
-        "summary": "Transform a legacy digital product or launch a brand new one.",
-        "details":""
+        "title": "Online Marketing",
+        "img": "/static/images/digital-marketing.svg",
+        "summary": "Working with your organization to reach your target audience.",
+        "details":"Newsletters and social media presence are ever present in today's marketing world. Together we decide on a concept and provide you with the tools to reach your audience. Integration with social media for your website to improve your online presence and build lasting networks."
     },
     {
  
-        "title": "Brand Identity",
-        "img": "/static/images/placeholder.png",
-        "summary": "Transform a legacy digital product or launch a brand new one.",
-        "details":""
+        "title": "Web Applications",
+        "img": "/static/images/application.svg",
+        "summary": "Creating an innovative application that matches your organizational needs.",
+        "details":"Online possibilities keep expanding, and at cT² we love this constant innovation. From start to finish we will walk through the needs of your organization. With extra attention for user friendliness and effectiveness we will develop the application that matches your organization."
     }
 
 ]    

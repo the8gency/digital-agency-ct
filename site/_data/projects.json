@@ -3,35 +3,35 @@
  
         "img": "/static/images/work.jpg",
         "title": "Digital company",
-        "subTitle":""
+        "subTitle":"This is a nice company"
     },
     {
  
         "img": "/static/images/work1.jpg",
         "title": "Digital company",
-        "subTitle":"Its a nice company"
+        "subTitle":"It's a very nice company"
     },
     {
  
         "img": "/static/images/work.jpg",
         "title": "Digital company",
-        "subTitle":"Its a nice company"
+        "subTitle":"This is a nice company as well"
     },
     {
  
         "img": "/static/images/work3.jpg",
         "title": "Digital company",
-        "subTitle":"Its a nice company"
+        "subTitle":"It too is a nice company"
     },{
  
         "img": "/static/images/work.jpg",
         "title": "Digital company",
-        "subTitle":"Its a nice company"
+        "subTitle":"This is also a nice company"
     },
     {
  
         "img": "/static/images/hero.png",
         "title": "Digital company",
-        "subTitle":"Its a nice company"
+        "subTitle":"This is a nice company also"
     }
 ] 

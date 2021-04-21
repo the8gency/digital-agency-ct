@@ -2,11 +2,21 @@
     "title": "Home",
     "subdomain": "cT² Digital Agency",
     "domain": "Associate Degree in Computer Programming",
-    "url": "https://the8gency.github.io/11tyio-boilerplate",
-    "description": "Through hard work and sacrifice we make bugs disappear.",
-    "author": {
-        "name": "Philippe De Pauw - Waterschoot",
-        "email": "philippe.depauw@arteveldehs.be"
-    },
+    "url": "https://the8gency.github.io/cT-squared",
+    "description": "Digital Agency in Ghent here to assist you in establishing your digital presence.",
+    "authors": [
+        {
+            "name": "Thabisa Dingani",
+            "email": "thabisa.dingani@student.arteveldehs.be"
+        },
+        {
+            "name": "Charlotte Delvaux",
+            "email": "charlotte.delvaux@student.artevelde.be"
+        },
+        {
+            "name": "Tahmina Rasoli",
+            "email": "tahmina.rasoli@the8gency.be"
+        }
+    ],
     "image": "/static/images/logo.jpg"
 }

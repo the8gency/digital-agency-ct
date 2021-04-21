@@ -1,21 +1,26 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: Services
-  order: 2
+    key: Services
+    order: 2
 ---
-<div class=>
-    <header>
-        <h2>Our work</h2>
-        <p>Take a peek at some of our latest projects.</p>
-    </header>
-    
-    <main class="">
-        {# <section class="">
-            <ul>
-                Cards
-            </ul>
-        </section> #}
-        <img src="{{'/static/images/services.png'| url }}" alt="team">
-    </main>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2 class="">Services</h2>
+            <div class="row">
+                {% for service in services %}
+                <div class="col">
+                    <div class="card">
+                        <span class="card__info">
+                            <h5 class="card__info--title">{{ service.title }}</h5>
+                            <p class="card__info--summary">{{ service.summary }}</p>
+                        </span>
+                        <img class="card-img" src="{{ service.img | url }}" alt="" />
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 </div>
