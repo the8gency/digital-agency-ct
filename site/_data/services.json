@@ -2,28 +2,28 @@
     {
  
         "title": "Brand Identity",
-        "img": "/static/images/placeholder.jpg",
+        "img": "/static/images/placeholder.png", 
         "summary": "Transform a legacy digital product or launch a brand new one.",
         "details":""
     },
     {
  
         "title": "Brand Identity",
-        "img": "/static/images/placeholder.jpg",
+        "img": "/static/images/placeholder.png",
         "summary": "Transform a legacy digital product or launch a brand new one.",
         "details":""
     },
     {
  
         "title": "Web design",
-        "img": "/static/images/placeholder.jpg",
+        "img": "/static/images/placeholder.png",
         "summary": "Transform a legacy digital product or launch a brand new one.",
         "details":""
     },
     {
  
         "title": "Brand Identity",
-        "img": "../static/images/placeholder.jpg",
+        "img": "/static/images/placeholder.png",
         "summary": "Transform a legacy digital product or launch a brand new one.",
         "details":""
     }

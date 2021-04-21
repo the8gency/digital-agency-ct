@@ -1805,9 +1805,17 @@ mark,
   width: 46%;
   margin: 1rem;
   padding: 2rem;
+  position: relative;
+  padding-bottom: 7rem;
 }
 .services ul .card__info--summary {
+  width: 15rem;
+}
+.services ul .card img {
   width: 10rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
 }
 
 body {
