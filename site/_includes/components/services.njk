@@ -1,0 +1,22 @@
+
+
+    <section class="services"> <!-- Sections could probably use extra margins -->
+        <div class="row">
+            <div class="col">
+                <h2 class="">What We Do</h2>
+                <div class="row">
+                    <ul class="col">
+                        {% for service in services %}
+                            <li class="card">
+                                <span class="card__info">
+                                    <h5 class="card__info--title">{{ service.title }}</h5>
+                                    <p class="card__info--summary">{{ service.summary }}</p>
+                                </span>
+                                <img class="card-img" src="{{ service.img | url }}" alt=""/>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>

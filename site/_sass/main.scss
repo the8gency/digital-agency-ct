@@ -1,9 +1,14 @@
 @import "./abstracts/fonts";
+@import "./abstracts/mixins";
 @import "./abstracts/variables";
 @import "./vendors/bootstrap";
+@import "./components/about";
+@import "./components/buttons";
+@import "./components/jumbotron";
 @import "./components/logo";
 @import "./components/navigation";
 @import "./components/navigation-footer";
+@import "./components/services";
 @import "./layout/body";
 @import "./layout/header";
 @import "./layout/main";

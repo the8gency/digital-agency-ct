@@ -1,0 +1,26 @@
+.jumbotron{
+    height:40rem;
+    background-image: url("../../static/images/hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:$ahs-white;
+    @include fancy-center;
+    &__inner{
+        color:$ahs-white;
+        @include fancy-center;
+        text-align: center;
+        a{
+            text-decoration: none;
+        }
+        
+        h1{
+            font-size:4rem
+        }
+        h2{
+            font-size:1.5rem;
+            width:50%;
+            font-weight:400;
+        }
+    }
+}

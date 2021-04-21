@@ -6,30 +6,21 @@ order: 1
 title: Home
 description: cT² is a Digital Agency. Through hard work and sacrifice we make bugs disappear.
 ---
-<div class="container">
+<div class="container-fluid jumbotron">
     {% include "components/jumbotron.njk" %}
 </div>
 
-<hr class="my-5">
+<div class="container-fluid about">
+    {% include "components/about.njk" %}
+</div>
+
 
 <div class="container">
-    <section class="services"> <!-- Sections could probably use extra margins -->
-        <div class="row">
-            <div class="col">
-                <h2 class="display-4">Services</h2>
-                <div class="row">
-                    {% for service in collections.services %}
-                    <div class="col">
-                        <div class="card">
-                            <h5 class="card-title">{{ service.data.title }}</h5>
-                            <p class="card-text">{{service.data.summary}}</p>
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-    </section>
+
+{% if services | length %}
+    {% include "components/services.njk" %}
+{% endif %}
+
 
     <section class="team">
         <div class="row">

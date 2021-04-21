@@ -1,0 +1,26 @@
+.btn {
+    @include fancy-button;
+}
+
+.btn-primary{
+    background-color: white; /* to change */
+    color:#111111;
+    
+}
+.btn-secondary{
+    background-color: transparent; /* to change */
+    color: white; 
+    border: 1px solid white;
+}
+
+.btn:hover{
+    background-color: white; 
+    color: white; 
+    border: 1px solid white;
+}
+.btn-secondary:hover{
+    color: #111111;
+}
+.btn-primary:hover{
+    background-color: transparent;
+}

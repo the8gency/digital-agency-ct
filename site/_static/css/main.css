@@ -1601,6 +1601,102 @@ mark,
     margin-left: 91.6666666667%;
   }
 }
+.about {
+  padding: 3.5rem 0;
+  color: white;
+  background-color: #4CAF50;
+}
+.about__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.about__inner h2 {
+  margin-bottom: -1rem;
+}
+.about__inner p {
+  width: 85%;
+}
+
+.btn {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  width: 13rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 2rem 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: white;
+  /* to change */
+  color: #111111;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  /* to change */
+  color: white;
+  border: 1px solid white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: white;
+  border: 1px solid white;
+}
+
+.btn-secondary:hover {
+  color: #111111;
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+}
+
+.jumbotron {
+  height: 40rem;
+  background-image: url("../../static/images/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.jumbotron__inner {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+}
+.jumbotron__inner a {
+  text-decoration: none;
+}
+.jumbotron__inner h1 {
+  font-size: 4rem;
+}
+.jumbotron__inner h2 {
+  font-size: 1.5rem;
+  width: 50%;
+  font-weight: 400;
+}
+
 .logo {
   font-family: "Montserrat", sans-serif;
   font-size: 42px;
@@ -1686,11 +1782,43 @@ mark,
   color: rgba(248, 249, 250, 0.48);
 }
 
+.services {
+  margin: 7rem 0;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-align: left;
+}
+.services h2 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.services ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.services ul .card {
+  background-color: #d5ffda;
+  width: 46%;
+  margin: 1rem;
+  padding: 2rem;
+}
+.services ul .card__info--summary {
+  width: 10rem;
+}
+
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+}
+
+li {
+  list-style: none;
 }
 
 .header {

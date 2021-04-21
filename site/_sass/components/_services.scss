@@ -1,0 +1,30 @@
+.services{
+    margin: 7rem 0;
+    display: flex;
+    @include fancy-center;
+    text-align: left;
+
+    h2{
+        text-align:center;
+        margin-bottom: 4rem;
+    }
+
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+
+        .card{
+            background-color:#d5ffda;
+            width: 46%;
+            margin:1rem;
+            padding: 2rem;
+
+            &__info{
+                &--summary{
+                    width: 10rem;  
+                }
+            }
+
+        }
+    }
+}

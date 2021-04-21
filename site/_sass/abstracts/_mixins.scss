@@ -1,0 +1,23 @@
+@mixin fancy-button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    width:13rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 2rem 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight:500
+}
+
+@mixin fancy-center {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
