@@ -13,10 +13,20 @@
     border: 1px solid white;
 }
 
+.btn-tertiary{
+    background-color: transparent; /* to change */
+    color: #111111; 
+    border: 1px solid #111111;
+}
+
 .btn:hover{
     background-color: white; 
     color: white; 
     border: 1px solid white;
+}
+.btn-tertiary:hover{
+    background-color: #111111; 
+    color: white; 
 }
 .btn-secondary:hover{
     color: #111111;

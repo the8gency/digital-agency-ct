@@ -1,0 +1,15 @@
+.team{
+    margin-top:8rem;
+    @include fancy-center;
+    &__img{
+        margin-top:3rem;
+        width:10rem;
+        border-radius:50%
+        
+    }
+    &__body{
+        margin-top:0.5rem;
+       width:15rem
+    }
+    
+}

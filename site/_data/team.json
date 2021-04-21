@@ -3,18 +3,21 @@
     "firstName": "Thabisa",
     "lastName": "Dingani",
     "jobFunction": "CEO",
-    "img": "https://randomuser.me/api/portraits/women/82.jpg"
+    "img": "https://randomuser.me/api/portraits/women/82.jpg",
+    "summary": ""
   },
   {
     "firstName": "Tahmina",
     "lastName": "Rasoli",
     "jobFunction": "CTO",
-    "img":"https://randomuser.me/api/portraits/women/68.jpg"
+    "img":"https://randomuser.me/api/portraits/women/68.jpg",
+    "summary": ""
   },
   {
     "firstName": "Charlotte",
     "lastName": "Delvaux",
     "jobFunction": "COO",
-    "img": "https://randomuser.me/api/portraits/women/23.jpg"
+    "img": "https://randomuser.me/api/portraits/women/23.jpg",
+    "summary": ""
   }
 ]
