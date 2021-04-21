@@ -8,7 +8,7 @@ eleventyNavigation:
 <section class="contact-section my-5">
   <div class="card">
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-lg-6">
         <div class="card-body form">
           <h3 class="mt-4"><i class="fas fa-envelope pr-2"></i>Write to us:</h3>
           <!-- Grid row-->
@@ -62,15 +62,29 @@ eleventyNavigation:
               <div class="md-form mb-0">
                 <textarea name="form-contact-message" id="form-contact-message" rows="3"></textarea>
                 <label for="form-contact-message">Your message</label>
-                <a class="btn-floating btn-lg blue">
+                <br>
+                <a class="btn">
                   <i class="far fa-paper-plane"></i>
-                </a>
+                  Send</a>
               </div>
             </div>
 
           </div>
           <!-- Grid row -->
         </div>
+      </div>
+
+      <div class="col-lg-4">
+        <h2 class="display-5">{{site.subdomain}}</h2>
+        <address>
+          Foreestelaan 1, <br>
+          9000 Gent
+        </address>
+
+        <p><a href=""><i class="fas fa-phone"></i> +32 444 55 22 33</a></p>
+
+        <h4>Or send us an email:</h4>
+        <a href="">info@ct-squared.be</a>
       </div>
     </div>
   </div>

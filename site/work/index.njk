@@ -10,7 +10,7 @@ eleventyNavigation:
     {% for work in collections.works %}
       <div class="col">
         <div class="card">
-        <a href="{{work.url}}">
+        <a href="{{work.url | url}}">
           <img class="card-img-top" src="{{work.data.img | url}}" width="360" alt="{{work.data.title}}">
           <div class="card-body">
             <h4 class="display-5">{{work.data.title}}</h4>
