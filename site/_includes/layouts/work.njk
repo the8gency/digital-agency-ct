@@ -2,6 +2,7 @@
 layout: layouts/base.njk
 ---
 <div class="container">
-    {{ title }}
     {{ content | safe }}
+
+    {% include "components/contact.njk" %}
 </div>
