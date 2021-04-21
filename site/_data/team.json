@@ -2,16 +2,19 @@
   {
     "firstName": "Thabisa",
     "lastName": "Dingani",
-    "jobFunction": "CEO"
+    "jobFunction": "CEO",
+    "img": "https://randomuser.me/api/portraits/women/82.jpg"
   },
   {
     "firstName": "Tahmina",
     "lastName": "Rasoli",
-    "jobFunction": "CTO"
+    "jobFunction": "CTO",
+    "img":"https://randomuser.me/api/portraits/women/68.jpg"
   },
   {
     "firstName": "Charlotte",
     "lastName": "Delvaux",
-    "jobFunction": "COO"
+    "jobFunction": "COO",
+    "img": "https://randomuser.me/api/portraits/women/23.jpg"
   }
 ]
