@@ -5,9 +5,11 @@
                 <ul class="row work__list ">
                     {% for project in projects %}
                         <li class="work__list--item">
-                            <a class="overlay">
+                            <img class="card-img" src="{{ project.img | url }}" alt="{{ project.title }}"/>
+
+                            {# <a class="overlay">
                                 <h4 class="work__list--item--title">{{ project.title }}</h4>
-                            </a>
+                            </a> #}
                         </li>
                     {% endfor %}
                 </ul>

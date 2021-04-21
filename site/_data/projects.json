@@ -7,7 +7,7 @@
     },
     {
  
-        "img": "/static/images/work.jpg",
+        "img": "/static/images/work1.jpg",
         "title": "Digital company",
         "subTitle":"Its a nice company"
     },
@@ -19,7 +19,7 @@
     },
     {
  
-        "img": "/static/images/work.jpg",
+        "img": "/static/images/work3.jpg",
         "title": "Digital company",
         "subTitle":"Its a nice company"
     },{
@@ -30,7 +30,7 @@
     },
     {
  
-        "img": "/static/images/work.jpg",
+        "img": "/static/images/hero.png",
         "title": "Digital company",
         "subTitle":"Its a nice company"
     }

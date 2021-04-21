@@ -1802,41 +1802,19 @@ mark,
   cursor: pointer;
 }
 .work__list--item {
-  background-image: url("../../static/images/hero.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #ffffff;
   width: 30%;
   height: 15rem;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.work__list--item:nth-child(2) {
-  background-image: url("../../static/images/work1.jpg");
-}
-.work__list--item:nth-child(4) {
-  background-image: url("../../static/images/work2.jpg");
-}
-.work__list--item:nth-child(6) {
-  background-image: url("../../static/images/work3.jpg");
-}
-.work__list .overlay {
-  text-align: center;
-  color: #ffffff;
-  padding: 2rem;
-  background-color: #44424265;
-}
-.work__list .overlay:hover {
-  text-decoration: underline;
+  overflow: hidden;
 }
 .work__list img {
   width: 100%;
-  z-index: 1;
+  height: 15rem;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.2s;
+}
+.work__list img:hover {
+  transform: scale(1.2);
 }
 
 .services {
