@@ -1782,6 +1782,63 @@ mark,
   color: rgba(248, 249, 250, 0.48);
 }
 
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #111111;
+  padding: 4rem 0;
+  overflow: hidden;
+  color: #ffffff;
+}
+.work__list {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  justify-content: center;
+  cursor: pointer;
+}
+.work__list--item {
+  background-image: url("../../static/images/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  width: 30%;
+  height: 15rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.work__list--item:nth-child(2) {
+  background-image: url("../../static/images/work1.jpg");
+}
+.work__list--item:nth-child(4) {
+  background-image: url("../../static/images/work2.jpg");
+}
+.work__list--item:nth-child(6) {
+  background-image: url("../../static/images/work3.jpg");
+}
+.work__list .overlay {
+  text-align: center;
+  color: #ffffff;
+  padding: 2rem;
+  background-color: #44424265;
+}
+.work__list .overlay:hover {
+  text-decoration: underline;
+}
+.work__list img {
+  width: 100%;
+  z-index: 1;
+}
+
 .services {
   margin: 7rem 0;
   display: flex;
@@ -1799,6 +1856,8 @@ mark,
 .services ul {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
 }
 .services ul .card {
   background-color: #d5ffda;
@@ -1825,10 +1884,6 @@ body {
   flex-wrap: nowrap;
 }
 
-li {
-  list-style: none;
-}
-
 .header {
   border-bottom: 1px solid #e9ecef;
   box-shadow: #dee2e6 0px 2px 4px 0px;
@@ -1836,6 +1891,12 @@ li {
 
 .main {
   flex: 1;
+}
+.main li {
+  list-style: none;
+}
+.main a {
+  text-decoration: none;
 }
 
 .footer {

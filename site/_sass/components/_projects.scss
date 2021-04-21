@@ -1,0 +1,56 @@
+.work{
+    @include fancy-center;
+    background-color: #111111;
+    padding:4rem 0;
+    overflow:hidden;
+    color: #ffffff;
+
+    &__list{
+        margin-top: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        justify-content:center;
+        cursor: pointer;
+        
+        &--item{
+            background-image: url("../../static/images/hero.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color:$ahs-white;
+            width:30%;
+            height:15rem;
+            padding: 0;
+            @include fancy-center;
+            
+        }
+
+        &--item:nth-child(2){
+            background-image: url("../../static/images/work1.jpg");
+        }
+        &--item:nth-child(4){
+            background-image: url("../../static/images/work2.jpg");
+        }
+        &--item:nth-child(6){
+            background-image: url("../../static/images/work3.jpg");
+        }
+
+        .overlay{
+           text-align: center;
+           color:$ahs-white;
+           padding:2rem;
+           background-color: #44424265;
+          
+        }
+
+        .overlay:hover{
+            text-decoration: underline;
+         }
+
+        img{
+            width: 100%;
+            z-index: 1;
+        }
+   }
+}

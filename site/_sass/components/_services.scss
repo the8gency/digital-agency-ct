@@ -12,7 +12,8 @@
     ul{
         display: flex;
         flex-wrap: wrap;
-
+        justify-content:center;
+        padding: 0;
         .card{
             background-color:#d5ffda;
             width: 46%;
