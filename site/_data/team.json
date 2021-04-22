@@ -4,27 +4,27 @@
     "lastName": "Dingani",
     "jobFunction": "Front-End Wizard",
     "img": "https://randomuser.me/api/portraits/women/82.jpg",
-    "summary": "",
-    "linkedin": "",
-    "email": ""
+    "summary": "Many people think they should save results for the job description section of the profile, but it’s very effective to include them in your summary because some recruiters won’t read your whole profile.",
+    "linkedin": "icon1",
+    "email": "icon2"
   },
   {
     "firstName": "Tahmina",
     "lastName": "Rasoli",
     "jobFunction": "Full-stack Developer",
     "img":"https://randomuser.me/api/portraits/women/68.jpg",
-    "summary": "",
-    "linkedin": "",
-    "email": ""
+    "summary": "Many people think they should save results for the job description section of the profile, but it’s very effective to include them in your summary because some recruiters won’t read your whole profile.",
+    "linkedin": "icon1",
+    "email": "icon2"
   },
   {
     "firstName": "Charlotte",
     "lastName": "Delvaux",
     "jobFunction": "Back-End Whisperer",
     "img": "https://randomuser.me/api/portraits/women/23.jpg",
-    "summary": "",
-    "linkedin": "",
-    "email": ""
+    "summary": "Many people think they should save results for the job description section of the profile, but it’s very effective to include them in your summary because some recruiters won’t read your whole profile.",
+    "linkedin": "icon1",
+    "email": "icon2"
   },
   {
     "firstName": "You",

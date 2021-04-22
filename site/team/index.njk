@@ -5,5 +5,34 @@ eleventyNavigation:
   order: 4
 ---
 
-
-<img src="{{'/static/images/team.png'| url }}" alt="team">
+<div class="container team-page "> <!-- This doesn't work, FIX later-->
+    <h2 class="">Meet Our Team</h2>
+    <p class="subTitle">We care about your product as much as you do We can are about your product as much as you do We care about your product as much as you do We can are about your product as much as you do </p>
+        <section class="team">
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    {% for person in team %}
+                        <div class="col">
+                            <div class="card card__team">
+                                <img class="card-img-top team__img" src="{{ person.img }}" alt="{{ person.firstName }} {{ person.lastName }}">
+                                <div class="card-body team__body">
+                                    <h5 class="card-title">{{ person.firstName }} {{ person.lastName }}</h5>
+                                    <p class="card-text card-jofuntion">{{ person.jobFunction }}</p>
+                                    <p class="card-text">{{ person.summary }}</p>
+                                    <div>
+                                        <a href="">{{ person.linkedin }}</a>
+                                        <a href="">{{ person.email }}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                        <div class="col-12">
+                            <button class="btn btn-tertiary" href="#">Join Our Team</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+</div>

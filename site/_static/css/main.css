@@ -1903,6 +1903,15 @@ mark,
   justify-content: center;
   text-align: center;
 }
+.team .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.team .card-jofuntion {
+  color: #aaaaaa;
+}
 .team__img {
   margin-top: 3rem;
   width: 10rem;
@@ -1921,8 +1930,7 @@ body {
 }
 
 .contact-section h2 {
-  text-align: center;
-  margin: 6rem 0;
+  margin: 8rem 0 4rem;
 }
 .contact-section h3, .contact-section h4 {
   font-weight: 400;
@@ -1966,12 +1974,12 @@ body {
   padding: 72px 0;
 }
 
-.services-page {
-  margin-top: 6rem;
+.services-page h2 {
+  padding: 8rem 0 1rem;
 }
 .services-page .subTitle {
-  margin: 2rem 0 8rem;
-  width: 70%;
+  width: 80%;
+  margin-bottom: 8rem;
 }
 .services-page .card {
   margin-bottom: 2rem;
@@ -1995,4 +2003,26 @@ body {
 }
 .services-page .card:nth-child(odd) div {
   flex-direction: row-reverse;
+}
+
+.team-page h2 {
+  padding: 8rem 0 1rem;
+}
+.team-page .subTitle {
+  width: 80%;
+  margin-bottom: 8rem;
+}
+.team-page .card__team {
+  margin-bottom: 3rem;
+  background-color: #f3f3f3;
+  width: 21rem;
+  padding-bottom: 2rem;
+}
+
+.work-page h2 {
+  padding: 8rem 0 1rem;
+}
+.work-page .subTitle {
+  width: 80%;
+  margin-bottom: 8rem;
 }

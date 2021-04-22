@@ -1,9 +1,5 @@
 .services-page{
-    margin-top: 6rem;
-    .subTitle{
-        margin:2rem 0 8rem;
-        width: 70%;
-    }
+    @include fancy-spacing;
     .card{
         margin-bottom: 2rem;
         
