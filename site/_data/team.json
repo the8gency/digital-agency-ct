@@ -2,22 +2,37 @@
   {
     "firstName": "Thabisa",
     "lastName": "Dingani",
-    "jobFunction": "CEO",
+    "jobFunction": "Front-End Wizard",
     "img": "https://randomuser.me/api/portraits/women/82.jpg",
-    "summary": ""
+    "summary": "",
+    "linkedin": "",
+    "email": ""
   },
   {
     "firstName": "Tahmina",
     "lastName": "Rasoli",
-    "jobFunction": "CTO",
+    "jobFunction": "Full-stack Developer",
     "img":"https://randomuser.me/api/portraits/women/68.jpg",
-    "summary": ""
+    "summary": "",
+    "linkedin": "",
+    "email": ""
   },
   {
     "firstName": "Charlotte",
     "lastName": "Delvaux",
-    "jobFunction": "COO",
+    "jobFunction": "Back-End Whisperer",
     "img": "https://randomuser.me/api/portraits/women/23.jpg",
-    "summary": ""
+    "summary": "",
+    "linkedin": "",
+    "email": ""
+  },
+  {
+    "firstName": "You",
+    "lastName": "?",
+    "jobFunction": "Join our team",
+    "img": "https://www.shareicon.net/data/512x512/2015/10/16/656968_info_512x512.png",
+    "summary": "",
+    "linkedin":"",
+    "email": ""
   }
 ]
