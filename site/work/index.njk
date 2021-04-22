@@ -6,21 +6,23 @@ eleventyNavigation:
   order: 3
 ---
 <div class="container"> <!-- This doesn't work, FIX later-->
-  <div class="row">
-    {% for work in collections.works %}
-      <div class="col">
-        <div class="card">
-        <a href="{{work.url | url}}">
-          <img class="card-img-top" src="{{work.data.img | url}}" width="360" alt="{{work.data.title}}">
-          <div class="card-body">
-            <h4 class="display-5">{{work.data.title}}</h4>
-            <p class="card-text">{{work.data.subTitle}}</p>
-          </div>
-          </a>
+    <h2 class="title">What We Do</h2>
+    <p class="subTitle">We care about your product as much as you do We can are about your product as much as you do We care about your product as much as you do We can are about your product as much as you do </p>
+    <div class="row">
+        {% for work in collections.works %}
+        <div class="col">
+            <div class="card">
+            <a href="{{work.url | url}}">
+            <img class="card-img-top" src="{{work.data.img | url}}" width="360" alt="{{work.data.title}}">
+            <div class="card-body">
+                <h4 class="display-5">{{work.data.title}}</h4>
+                <p class="card-text">{{work.data.subTitle}}</p>
+            </div>
+            </a>
+            </div>
         </div>
-      </div>
-    {% endfor %}
-  </div>
+        {% endfor %}
+    </div>
 </div>
 
 

@@ -1637,7 +1637,7 @@ mark,
 
 .btn {
   background-color: #4CAF50;
-  border: none;
+  border: 1px solid #4CAF50;
   color: white;
   padding: 1rem 2rem;
   width: 13rem;
@@ -1654,6 +1654,7 @@ mark,
 .btn-primary {
   background-color: white;
   /* to change */
+  border: 1px solid white;
   color: #111111;
 }
 
@@ -1688,6 +1689,13 @@ mark,
 
 .btn-primary:hover {
   background-color: transparent;
+}
+
+.btn-submit:hover {
+  background-color: transparent;
+  /* to change */
+  color: #4CAF50;
+  border: 1px solid #4CAF50;
 }
 
 .clients {
@@ -1910,6 +1918,31 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+}
+
+.contact-section h2 {
+  text-align: center;
+  margin: 6rem 0;
+}
+.contact-section h3, .contact-section h4 {
+  font-weight: 400;
+}
+.contact-section__card input, .contact-section__card textarea {
+  padding: 0.5rem;
+  width: 100%;
+}
+.contact-section__card label {
+  margin-top: 1.5rem;
+  display: block;
+  font-weight: 600;
+}
+.contact-section__card--address {
+  margin-left: 2rem;
+  background-color: #f3f3f3;
+  padding: 2rem;
+}
+.contact-section__card--address a {
+  color: #5AB946;
 }
 
 .header {

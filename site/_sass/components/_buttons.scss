@@ -4,6 +4,7 @@
 
 .btn-primary{
     background-color: white; /* to change */
+    border: 1px solid white;
     color:#111111;
     
 }
@@ -19,6 +20,7 @@
     border: 1px solid #111111;
 }
 
+
 .btn:hover{
     background-color: white; 
     color: white; 
@@ -33,4 +35,10 @@
 }
 .btn-primary:hover{
     background-color: transparent;
+}
+.btn-submit:hover{
+    background-color: transparent; /* to change */
+    color: #4CAF50; 
+    border: 1px solid #4CAF50;
+    
 }

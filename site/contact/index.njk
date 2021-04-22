@@ -5,87 +5,86 @@ eleventyNavigation:
   order: 5
 ---
 <!-- TODO: Style this thing.-->
-<section class="contact-section my-5">
-  <div class="card">
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="card-body form">
-          <h3 class="mt-4"><i class="fas fa-envelope pr-2"></i>Write to us:</h3>
-          <!-- Grid row-->
-          <div class="row">
-            <!-- Grid column -->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="form-contact-name" class="form-control">
-                <label for="form-contact-name" class="">Your name</label>
-              </div>
-            </div>
-            <!-- Grid column -->
+<section class="contact-section my-5 container">
+    <h2 class></i>Get In Touch</h2>
+    <div class="card contact-section__card">
+        <div class="row">
+        <div class="col-lg-6">
+            <div class="card-body form">
+            <h3 class="mt-4"><i class="fas fa-envelope pr-2"></i> Write to us:</h3>
+            <!-- Grid row-->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-6">
+                <div class="md-form mb-0">
+                    <label for="form-contact-name" class="">Your name</label>
+                    <input type="text" id="form-contact-name" class="form-control">
+                </div>
+                </div>
+                <!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="form-contact-email" class="form-control">
+                <!-- Grid column -->
+                <div class="col-md-6">
+                <div class="md-form mb-0">
                 <label for="form-contact-email" class="">Your email</label>
-              </div>
-            </div>
-            <!-- Grid column -->
-
-          </div>
-          <!-- Grid row -->
-          <div class="row">
-
-            <!-- Grid column -->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="form-contact-phone" class="form-control">
-                <label for="form-contact-phone" class="">Your phone number</label>
-              </div>
-            </div>
-            <!-- Grid column-->
-
-            <!-- Grid column -->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="form-contact-company" class="form-control">
-                <label for="form-contact-company" class="">Your company</label>
-              </div>
-            </div>
-            <!-- Grid column-->
-          </div>
-          <!-- Grid row-->
-
-          <!-- Grid row -->
-          <div class="row">
-
-            <div class="col-md-12">
-              <div class="md-form mb-0">
-                <textarea name="form-contact-message" id="form-contact-message" rows="3"></textarea>
-                <label for="form-contact-message">Your message</label>
-                <br>
-                <a class="btn">
-                  <i class="far fa-paper-plane"></i>
-                  Send</a>
-              </div>
+                    <input type="text" id="form-contact-email" class="form-control">
+                </div>
+                </div>
+                <!-- Grid column -->
             </div>
 
-          </div>
-          <!-- Grid row -->
+            <!-- Grid row -->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-6">
+                <div class="md-form mb-0">
+                    <label for="form-contact-phone" class="">Your phone number</label>
+                    <input type="text" id="form-contact-phone" class="form-control">
+                </div>
+                </div>
+                <!-- Grid column-->
+
+                <!-- Grid column -->
+                <div class="col-md-6">
+                <div class="md-form mb-0">
+                    <label for="form-contact-company" class="">Your company</label>
+                    <input type="text" id="form-contact-company" class="form-control">
+                </div>
+                </div>
+                <!-- Grid column-->
+            </div>
+            <!-- Grid row-->
+
+            <!-- Grid row -->
+            <div class="row">
+                <div class="col-md-12">
+                <div class="md-form mb-0">
+                    <label for="form-contact-message">Your message</label>
+                    <textarea name="form-contact-message" id="form-contact-message" rows="3"></textarea>
+                    <br>
+                    <a class="btn btn-submit">
+                    <i class="far fa-paper-plane"></i>
+                    Send</a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Grid row -->
+            </div>
         </div>
-      </div>
+    {# ================================================================= #}
+        <div class="col-lg-4 contact-section__card--address">
+            <h3 class="display-5">{{site.subdomain}}</h3>
+            <address>
+            Foreestelaan 1, <br>
+            9000 Gent
+            </address>
 
-      <div class="col-lg-4">
-        <h2 class="display-5">{{site.subdomain}}</h2>
-        <address>
-          Foreestelaan 1, <br>
-          9000 Gent
-        </address>
+            <p><a href=""><i class="fas fa-phone"></i> +32 444 55 22 33</a></p>
 
-        <p><a href=""><i class="fas fa-phone"></i> +32 444 55 22 33</a></p>
-
-        <h4>Or send us an email:</h4>
-        <a href="">info@ct-squared.be</a>
-      </div>
+            <h4>Or send us an email:</h4>
+            <a href="">info@ct-squared.be</a>
+        </div>
+        </div>
     </div>
-  </div>
 </section>
