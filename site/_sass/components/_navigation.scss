@@ -41,7 +41,7 @@
                 }
 
                 &:hover::before {
-                    background: $gray-500;
+                    background: $gray-600;
                     border-bottom-color: $gray-900;
                 }
             }
@@ -49,7 +49,7 @@
             &--active {
                 > a {
                     &::before {
-                        background: lighten($ahs-purple, 20%);
+                        background: lighten($ahs-green, 20%);
                         border-bottom-color: $gray-900;
                     }
                 }

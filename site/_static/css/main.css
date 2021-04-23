@@ -1604,7 +1604,7 @@ mark,
 .about {
   padding: 3.5rem 0;
   color: white;
-  background-color: #4CAF50;
+  background-color: #5AB946;
 }
 .about__inner {
   display: flex;
@@ -1705,8 +1705,8 @@ mark,
 
 .jumbotron {
   height: 40rem;
-  background-image: url("../../static/images/hero.png");
-  background-position: center;
+  background-image: url("../../static/images/bg.jpg");
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
@@ -1722,7 +1722,6 @@ mark,
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
   text-align: center;
 }
 .jumbotron__inner a {
@@ -1784,11 +1783,11 @@ mark,
   transition: all 286ms ease-in-out 0s;
 }
 .nav__list-item > a:hover::before {
-  background: #adb5bd;
+  background: #6c757d;
   border-bottom-color: #212529;
 }
 .nav__list-item--active > a::before {
-  background: #b8a3df;
+  background: #9cd590;
   border-bottom-color: #212529;
 }
 
@@ -1819,7 +1818,7 @@ mark,
   color: rgba(248, 249, 250, 0.48);
 }
 .footer-nav__list-item--active > a {
-  color: rgba(248, 249, 250, 0.48);
+  color: #5AB946;
 }
 
 .work {
@@ -1957,6 +1956,16 @@ body {
   border-bottom: 1px solid #e9ecef;
   box-shadow: #dee2e6 0px 2px 4px 0px;
 }
+.header .logo {
+  padding-top: 0.5rem;
+}
+.header .logo a {
+  text-decoration: none;
+  font-weight: 700;
+  border: 2px solid #111111;
+  padding: 0.5rem;
+  margin-top: 0.1rem;
+}
 
 .main {
   flex: 1;
@@ -1969,7 +1978,7 @@ body {
 }
 
 .footer {
-  background: #111111;
+  background: #040303;
   color: #f8f9fa;
   padding: 72px 0;
 }

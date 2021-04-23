@@ -1,7 +1,7 @@
 .jumbotron{
     height:40rem;
-    background-image: url("../../static/images/hero.png");
-    background-position: center;
+    background-image: url("../../static/images/bg.jpg");
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     color:$ahs-white;
@@ -9,7 +9,6 @@
     &__inner{
         color:$ahs-white;
         @include fancy-center;
-        text-align: center;
         a{
             text-decoration: none;
         }
