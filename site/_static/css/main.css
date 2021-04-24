@@ -1899,14 +1899,14 @@ mark,
   overflow: hidden;
 }
 .work__list img {
-  width: 100%;
+  width: 90%;
   height: 15rem;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   transition: 0.2s;
 }
 .work__list img:hover {
-  transform: scale(1.2);
+  transform: scale(0.8);
 }
 
 .work-page {
