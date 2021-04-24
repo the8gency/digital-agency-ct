@@ -52,3 +52,17 @@
         }
     }
 }
+
+.footer__copy {
+    .authors {
+        a {
+            color: $ahs-green;
+        }
+        a::after {
+            content: " - ";
+        }
+        a:last-child::after {
+            content: "";
+        }
+    }
+}

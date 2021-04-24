@@ -1864,6 +1864,16 @@ mark,
   color: #5AB946;
 }
 
+.footer__copy .authors a {
+  color: #5AB946;
+}
+.footer__copy .authors a::after {
+  content: " - ";
+}
+.footer__copy .authors a:last-child::after {
+  content: "";
+}
+
 .work {
   display: flex;
   flex-direction: column;
