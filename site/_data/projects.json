@@ -1,37 +1,37 @@
 [
     {
  
-        "img": "/static/images/work.jpg",
-        "title": "Digital company",
-        "subTitle":"This is a nice company"
+        "img": "/static/images/project3.png",
+        "title": "AXI",
+        "subTitle":"Reinventing AXI: from four different brands to a coherent one"
     },
     {
  
-        "img": "/static/images/work1.jpg",
-        "title": "Digital company",
-        "subTitle":"It's a very nice company"
+        "img": "/static/images/project2.jpg",
+        "title": "Extremis",
+        "subTitle":"Interlinking at best on Extremis' brand-new website"
     },
     {
  
-        "img": "/static/images/work.jpg",
-        "title": "Digital company",
-        "subTitle":"This is a nice company as well"
+        "img": "/static/images/project1.png",
+        "title": "VLAIO",
+        "subTitle":"Complex email automation flows for hetinternetookuwzaak.be turns out to be a fine piece of workmanship"
     },
     {
  
-        "img": "/static/images/work3.jpg",
-        "title": "Digital company",
-        "subTitle":"It too is a nice company"
+        "img": "/static/images/project4.jpg",
+        "title": "Febelfin",
+        "subTitle":"Connecting with the Next Generation of Finance"
     },{
  
-        "img": "/static/images/work.jpg",
-        "title": "Digital company",
-        "subTitle":"This is also a nice company"
+        "img": "/static/images/project5.png",
+        "title": "Visit Flanders",
+        "subTitle":"Virtual museum tours reaching 2.474.550 art lovers in 94 countries"
     },
     {
  
-        "img": "/static/images/hero.png",
-        "title": "Digital company",
-        "subTitle":"This is a nice company also"
+        "img": "/static/images/project6.png",
+        "title": "Firestone",
+        "subTitle":"Inspiring architects with roofs that shape the future"
     }
 ] 

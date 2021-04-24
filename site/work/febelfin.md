@@ -6,6 +6,7 @@ img: "/static/images/project4.jpg"
 tags: works
 ---
 
+## {{ title }}
 # {{subTitle}}
 
 **Febelfin Academy, the leading training institute of the financial sector in Belgium, develops top-notch learning solutions for finance professionals. As an extension of their established activity scope, the organization decided to reach out to the younger generations in order to warm them up for the financial sector. We supported them in their war on talent with both an awareness campaign that presents career possibilities by reintroducing the financial sector and a banking simulation game organized in fifteen Universities of Applied Sciences across Belgium. Enter the Next Generation of Finance!**

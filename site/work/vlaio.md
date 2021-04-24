@@ -4,10 +4,9 @@ title: Vlaio
 subTitle: Complex email automation flows for hetinternetookuwzaak.be turns out to be a fine piece of workmanship
 img: "/static/images/project1.png"
 tags: works
-summary: "Flanders Innovation & Entrepreneurship (VLAIO) is an organisation of the Flemish government for all entrepreneurs in Flanders. Their goal is to stimulate and support innovation and entrepreneurship in Flanders. Together with cT², they launched the campaign hetinternetookuwzaak.be (literally: the internet, your business too) in 2018 to strengthen the online presence of every retailer. Two years later, they wanted to make retailers even more digital savvy and breathed new life into the campaign. We gave the e-scan a fresh update and linked it to an impressive email automation system. Top-notch online marketing, that got rewarded with a nomination for EEPA 2020!"
 ---
-# Vlaio
-## {{subTitle}}
+## Vlaio
+# {{subTitle}}
 
 **{{summary}}**
 

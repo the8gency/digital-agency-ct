@@ -6,6 +6,7 @@ img: "/static/images/project3.png"
 tags: works
 ---
 
+## {{title}}
 # {{subTitle}}
 
 **[AXI](https://www.axi.be/nl/over-axi) is a strategic all-round IT partner specialised in the health, retail, government, services and industry sector in Belgium and the Netherlands. Since 2018, they acquired three sister companies: Elegio (e-voting software), Ground lion (Adaptive Case Management software) and LoQutus (a digital consultancy agency). Four different brands with four different identities. Our task? To untie the branding knot: reorganising the brand architecture and rewriting the brand story. First, we sharpened the business strategy. Next, we translated that strategy into a rebranding and other new opportunities for the entire customer experience. And all of that in close collaboration with AXI of course!**

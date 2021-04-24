@@ -6,8 +6,8 @@ img: "/static/images/project2.jpg"
 tags: works
 ---
 
-# Extremis
-## Interlinking at best on Extremis' brand-new website
+## {{ title }}
+# {{ subTitle }}
 
 **[Extremis](https://www.extremis.be/en/), an international family business that produces design furniture, was experiencing difficulties in addressing all of their target audiences, being end users on the one hand and architects, designers, retail dealers ... on the other hand, on one and the same website. The website was not easy to navigate and customers did not easily find what they were looking for. To get all target audiences as fast as possible to the right information, Extremis made an appeal to cT². We gave their website a clean and spacious front-end as well as an intuitive and powerful back-end. Together, we ran in sprints every two weeks to achieve the top-notch website that Extremis has today - and that with the help of our unique 4S methodology (strategy, story, system and scale).**
 
