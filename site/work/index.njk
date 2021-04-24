@@ -12,13 +12,15 @@ eleventyNavigation:
         {% for work in collections.works %}
         <div class="col">
             <div class="card">
-            <a href="{{work.url | url}}">
-            <img class="card-img-top" src="{{work.data.img | url}}" width="360" alt="{{work.data.title}}">
-            <div class="card-body">
+                <a href="{{work.url | url}}">
                 <h4 class="display-5">{{work.data.title}}</h4>
-                <p class="card-text">{{work.data.subTitle}}</p>
-            </div>
-            </a>
+                <div class="card-img">
+                    <img class="card-img-top" src="{{work.data.img | url}}" width="360" alt="{{work.data.title}}">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">{{work.data.subTitle}}</p>
+                </div>
+                </a>
             </div>
         </div>
         {% endfor %}
