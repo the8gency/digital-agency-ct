@@ -1716,7 +1716,6 @@ mark,
 }
 
 .jumbotron {
-  height: 40rem;
   background-image: url("../../static/images/bg.jpg");
   background-position: right;
   background-repeat: no-repeat;
@@ -1727,6 +1726,11 @@ mark,
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+@media screen and (min-width: 48rem) {
+  .jumbotron {
+    height: 40rem;
+  }
 }
 .jumbotron__inner {
   color: #ffffff;
@@ -1966,21 +1970,37 @@ mark,
 }
 .services ul .card {
   background-color: #f3f3f3;
-  width: 46%;
+  width: 100%;
   margin: 1rem;
   padding: 2rem;
   position: relative;
   padding-bottom: 7rem;
   transition: 0.4s;
+  display: flex;
+  flex-direction: column;
 }
-.services ul .card__info--summary {
-  width: 15rem;
+@media screen and (min-width: 48rem) {
+  .services ul .card {
+    flex-direction: row;
+    width: 46%;
+  }
+}
+@media screen and (min-width: 48rem) {
+  .services ul .card__info--summary {
+    width: 15rem;
+  }
 }
 .services ul .card img {
   width: 10rem;
-  position: absolute;
-  bottom: 2rem;
-  right: 2rem;
+  max-width: 100%;
+}
+@media screen and (min-width: 48rem) {
+  .services ul .card img {
+    position: absolute;
+    width: 10rem;
+    bottom: 2rem;
+    right: 1rem;
+  }
 }
 .services ul .card:hover {
   background-color: #5AB946;

@@ -16,25 +16,39 @@
         padding: 0;
         .card{
             background-color:#f3f3f3;
-            width: 46%;
+            width: 100%;
             margin:1rem;
             padding: 2rem;
             position: relative;
             padding-bottom: 7rem;
             transition: .4s;
+            display: flex;
+            flex-direction: column;
+
+            @media screen and (min-width: 48rem) {
+                flex-direction: row;
+                width: 46%;
+            }
 
             &__info{
                 &--summary{
-                    width: 15rem;  
+                    
+                    @media screen and (min-width: 48rem) {
+                        width: 15rem;
+                    }
                 }
             }
-
-            img{
-                width:10rem;
-                position: absolute;
-                bottom: 2rem;
-                right: 2rem;
-
+            img {
+                width: 10rem;
+                max-width: 100%;
+            }
+            @media screen and (min-width: 48rem) {
+                img{
+                    position: absolute;
+                    width:10rem;
+                    bottom: 2rem;
+                    right: 1rem;
+                }
             }
             &:hover {
                 background-color: $ahs-green;
