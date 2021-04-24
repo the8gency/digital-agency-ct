@@ -1971,6 +1971,7 @@ mark,
   padding: 2rem;
   position: relative;
   padding-bottom: 7rem;
+  transition: 0.4s;
 }
 .services ul .card__info--summary {
   width: 15rem;
@@ -1980,6 +1981,9 @@ mark,
   position: absolute;
   bottom: 2rem;
   right: 2rem;
+}
+.services ul .card:hover {
+  background-color: #5AB946;
 }
 
 .team {
@@ -2007,6 +2011,20 @@ mark,
 .team__body {
   margin-top: 0.5rem;
   width: 15rem;
+}
+.team__social-link {
+  margin: 0 0.5rem;
+  color: #5AB946;
+  transition: 0.2s;
+}
+.team__social-link > i {
+  transition: 0.3s;
+}
+.team__social-link:hover {
+  color: #212529;
+}
+.team__social-link:hover > i {
+  transform: scale(1.5);
 }
 
 .wysiwyg {

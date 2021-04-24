@@ -18,9 +18,23 @@
     }
     &__body{
         margin-top:0.5rem;
-    width:15rem
+        width:15rem
     }
-    
-    
+    &__social-link {
+        margin: 0 .5rem;
+        color: $ahs-green;
+        transition: .2s;
+
+        > i {
+            transition: .3s;
+        }
+
+        &:hover {
+            color: $gray-900;
+            > i {
+                transform: scale(1.5);
+            }
+        }
+    }   
 }
 

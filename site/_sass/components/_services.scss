@@ -21,6 +21,7 @@
             padding: 2rem;
             position: relative;
             padding-bottom: 7rem;
+            transition: .4s;
 
             &__info{
                 &--summary{
@@ -35,7 +36,9 @@
                 right: 2rem;
 
             }
-
+            &:hover {
+                background-color: $ahs-green;
+            }
         }
     }
 }
