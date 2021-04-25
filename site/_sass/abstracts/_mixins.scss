@@ -1,0 +1,37 @@
+@mixin fancy-button {
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    color: white;
+    padding: 1rem 2rem;
+    width:13rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 2rem 0rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight:500
+}
+
+@mixin fancy-center {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+@mixin fancy-spacing{
+    h2{
+    padding: 8rem 0 1rem;
+    }
+   .subTitle{ 
+       width: 80%;
+       margin-bottom: 8rem;
+    }
+}
+@mixin fancy-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 

@@ -1,0 +1,55 @@
+.btn {
+    @include fancy-button;
+}
+
+.btn-primary{
+    background-color: white; /* to change */
+    border: 1px solid white;
+    color:#111111;
+    margin-bottom: -2rem;
+    
+}
+.btn-secondary{
+    background-color: transparent; /* to change */
+    color: white; 
+    border: 1px solid white;
+}
+
+.btn-tertiary{
+    background-color: transparent; /* to change */
+    color: #111111; 
+    border: 1px solid #111111;
+}
+
+
+.btn:hover{
+    background-color: white; 
+    color: white; 
+    border: 1px solid white;
+}
+.btn-tertiary:hover{
+    background-color: #111111; 
+    color: white; 
+}
+.btn-secondary:hover{
+    color: #111111;
+}
+.btn-primary:hover{
+    background-color: transparent;
+}
+.btn-submit:hover{
+    background-color: transparent; /* to change */
+    color: #4CAF50; 
+    border: 1px solid #4CAF50;
+}
+.btn--to-top{
+    position: fixed;
+    bottom: 1rem;
+    right: .5rem;
+    border: 0;
+    width: 5rem;
+    padding: 1rem;
+    border-radius: 50%;
+    color: #4CAF50;
+    text-shadow: 0px 3px 10px rgba(0,0,0, 0.5)
+}

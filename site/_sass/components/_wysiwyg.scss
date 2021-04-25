@@ -1,0 +1,40 @@
+.wysiwyg {
+    padding: 1rem;
+    > ul,
+    > div ul {
+        > li::before {
+            content: "\2011";
+            color: #000;
+            font-weight: bold;
+            font-size: 1.3rem;
+            display: inline-block;
+            width: 2rem;
+            margin-left: -2rem;
+        }
+    }
+    > img {
+        margin: 1rem 0;
+    }
+    a {
+        position: relative;
+        color: #5AB946;
+
+        &:hover {
+            color: #3e8131;
+        }
+
+        &::after {
+            content: "";
+            position: relative;
+            bottom: .25rem;
+            display: inline-flex;
+            background-image: url('../../static/images/external-link.svg');
+            background-size: cover;
+            background-position: bottom;
+            width: .9rem;
+            height: .9rem;
+            color: #000;
+            margin-left: .3rem;
+        }
+    }
+}

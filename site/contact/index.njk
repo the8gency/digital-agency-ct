@@ -4,3 +4,86 @@ eleventyNavigation:
   key: Contact
   order: 5
 ---
+<!-- TODO: Style this thing.-->
+<section class="contact-section my-5 container">
+    <h2 class><i class="fas fa-envelope pr-2"></i> Get In Touch</h2>
+    <div class="card contact-section__card">
+        <div class="row">
+        <div class="col-lg-6">
+            <div class="card-body form">
+            <!-- Grid row-->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-6">
+                <div class="md-form mb-0">
+                    <label for="form-contact-name" class="">Your name</label>
+                    <input type="text" id="form-contact-name" class="form-control">
+                </div>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-6">
+                <div class="md-form mb-0">
+                <label for="form-contact-email" class="">Your email</label>
+                    <input type="text" id="form-contact-email" class="form-control">
+                </div>
+                </div>
+                <!-- Grid column -->
+            </div>
+
+            <!-- Grid row -->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-6">
+                <div class="md-form mb-0">
+                    <label for="form-contact-phone" class="">Your phone number</label>
+                    <input type="text" id="form-contact-phone" class="form-control">
+                </div>
+                </div>
+                <!-- Grid column-->
+
+                <!-- Grid column -->
+                <div class="col-md-6">
+                <div class="md-form mb-0">
+                    <label for="form-contact-company" class="">Your company</label>
+                    <input type="text" id="form-contact-company" class="form-control">
+                </div>
+                </div>
+                <!-- Grid column-->
+            </div>
+            <!-- Grid row-->
+
+            <!-- Grid row -->
+            <div class="row">
+                <div class="col-md-12">
+                <div class="md-form mb-0">
+                    <label for="form-contact-message">Your message</label>
+                    <textarea name="form-contact-message" id="form-contact-message" rows="3"></textarea>
+                    <br>
+                    <a class="btn btn-submit">
+                    <i class="far fa-paper-plane"></i>
+                    Send</a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Grid row -->
+            </div>
+        </div>
+    {# ================================================================= #}
+        <div class="col-lg-5 contact-section__card--address">
+            <h5 class="display-5">{{site.subdomain}}</h5>
+            <address>
+            Foreestelaan 1, <br>
+            9000 Gent
+            </address>
+
+            <p><a href=""><i class="fas fa-phone"></i> +32 444 55 22 33</a></p>
+
+            <h6>Or send us an email:</h6>
+            <a href="">info@ct-squared.be</a>
+        </div>
+        </div>
+    </div>
+</section>

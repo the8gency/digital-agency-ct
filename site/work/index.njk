@@ -1,6 +1,30 @@
 ---
 layout: layouts/base.njk
+tags: 
 eleventyNavigation:
   key: Work
   order: 3
 ---
+<div class="container work-page"> <!-- This doesn't work, FIX later-->
+    <h2 class="title">What We Do</h2>
+    <p class="subTitle">We define, design and develop communication solutions.</p>
+    <div class="row">
+        {% for work in collections.works %}
+        <div class="col">
+            <div class="card">
+                <a href="{{work.url | url}}">
+                <h4 class="display-5">{{work.data.title}}</h4>
+                <div class="card-img">
+                    <img class="card-img-top" src="{{work.data.img | url}}" width="360" alt="{{work.data.title}}">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">{{work.data.subTitle}}</p>
+                </div>
+                </a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+

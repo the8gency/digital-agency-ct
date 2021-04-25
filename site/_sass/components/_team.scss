@@ -1,0 +1,40 @@
+.team{
+    margin-top:8rem;
+    @include fancy-center;
+
+    .card{
+        @include fancy-column;
+        margin-bottom: 1rem;
+        &-jofuntion{
+            color: rgb(170, 170, 170)
+        }
+    }
+
+    &__img{
+        margin-top:3rem;
+        width:10rem;
+        border-radius:50%
+        
+    }
+    &__body{
+        margin-top:0.5rem;
+        width:15rem
+    }
+    &__social-link {
+        margin: 0 .5rem;
+        color: $ahs-green;
+        transition: .2s;
+
+        > i {
+            transition: .3s;
+        }
+
+        &:hover {
+            color: $gray-900;
+            > i {
+                transform: scale(1.5);
+            }
+        }
+    }   
+}
+

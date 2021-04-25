@@ -1,9 +1,19 @@
 <footer class="footer">
     <div class="container">
-        <div class="row justify-content-between">
-            <section>
-                {% include "components/navigation-footer.njk" %}
-            </section>
+        <div class="row">
+            <div class="col justify-content-between">
+                <section>
+                    {% include "components/navigation-footer.njk" %}
+                </section>
+            </div>
+            <div class="col footer__copy">
+                <p><span class="authors">
+                    {% for author in site.authors %}
+                    <a href=mailto:{{author.email |url}}> {{author.name}}</a>
+                    {% endfor %}
+                </p></span>
+                <p>Copyright &copy; {{ helpers.currentYear() }}</p>
+            </div>
         </div>
     </div>
 </footer>

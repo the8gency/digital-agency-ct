@@ -1,16 +1,52 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: Home
-  order: 1
+key: Home
+order: 1
 title: Home
-description: Get great at designing amazing websites and mobile applications with high-performance code and neat graphics. In the Associate Degree in Computer Programming you will learn all the tricks of the digital trade.
+description: cT² is a Digital Agency. Through hard work and sacrifice we make bugs disappear.
 ---
+<div class="container-fluid jumbotron">
+    {% include "components/jumbotron.njk" %}
+</div>
+
+<div class="container-fluid about">
+    {% include "components/about.njk" %}
+</div>
 
 <div class="container">
-    <div class="row">
-        <div class="col-6">
-            <h1>HELLO</h1>
+
+{% if services | length %}
+    {% include "components/services.njk" %}
+{% endif %}
+
+{% if projects | length %}
+    {% include "components/projects.njk" %}
+{% endif %}
+
+
+    <section class="team">
+        <div class="row">
+            <div class="col">
+                <h2 class="">Meet Our Team</h2>
+                <div class="row">
+                    {% for person in team %}
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top team__img" src="{{ person.img }}" alt="{{ person.firstName }} {{ person.lastName }}">
+                                <div class="card-body team__body">
+                                    <h5 class="card-title">{{ person.firstName }} {{ person.lastName }}</h5>
+                                    <p class="card-text card-jofuntion">{{ person.jobFunction }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                        <div class="col-12">
+                            <button class="btn btn-tertiary" href="#">Join Our Team</button>
+                        </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>  
 </div>
+

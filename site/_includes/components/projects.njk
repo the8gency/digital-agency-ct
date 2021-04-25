@@ -1,0 +1,19 @@
+  <section class="work">
+        <div class="row">
+            <div class="col">
+                <h2 class="">See Our Work</h2>
+                <ul class="row work__list ">
+                    {% for project in projects %}
+                        <li class="work__list--item">
+                            <img class="card-img" src="{{ project.img | url }}" alt="{{ project.title }}"/>
+
+                            {# <a class="overlay">
+                                <h4 class="work__list--item--title">{{ project.title }}</h4>
+                            </a> #}
+                        </li>
+                    {% endfor %}
+                </ul>
+                <a class="btn btn-secondary" href="work">View All</a>
+            </div>
+        </div>
+    </section>

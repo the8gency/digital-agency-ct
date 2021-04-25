@@ -1,5 +1,40 @@
 .nav {
     --nav-spacing: #{$spacing*1px};
+    position: relative;
+
+    &--collapse {
+        display: none;
+    }
+    &__toggle {
+        position: absolute;
+        right: 1rem;
+        padding: .5rem 1rem;
+        margin-top: .75rem;
+    }
+    &--mobile {
+        > .nav__list--col {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            position: relative;
+            right: 4rem;
+        }
+        &.hidden {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: 48rem) {
+        &__toggle {
+            display: none;
+        }
+        &--collapse {
+            display: block;
+        }
+        &--mobile {
+            display: none;
+        }
+    }
 
     &__list {
         display: flex;
@@ -41,7 +76,7 @@
                 }
 
                 &:hover::before {
-                    background: $gray-500;
+                    background: $gray-600;
                     border-bottom-color: $gray-900;
                 }
             }
@@ -49,7 +84,7 @@
             &--active {
                 > a {
                     &::before {
-                        background: lighten($ahs-purple, 20%);
+                        background: lighten($ahs-green, 20%);
                         border-bottom-color: $gray-900;
                     }
                 }

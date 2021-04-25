@@ -5,7 +5,9 @@
       this.registerEventListeners();
     },
     cacheElements () {
-      this.btnToTopElement = document.querySelector('.btn-to-top');
+      this.btnToTopElement = document.querySelector('.btn--to-top');
+      this.navMobile = document.querySelector('#navbarSupportedContent');
+      this.navToggle = document.querySelector('.nav__toggle');
     },
     registerEventListeners () {
       if (this.btnToTopElement !== null) {
@@ -17,6 +19,10 @@
           });
         });
       }
+      console.log(this.navMobile.classList);
+      this.navToggle.addEventListener('click', (e) => {
+        this.navMobile.classList.toggle('hidden');
+      });
     },
   };
   app.initialize();
