@@ -2,7 +2,7 @@
 layout: layouts/work.njk
 title: Vlaio
 subTitle: Complex email automation flows for hetinternetookuwzaak.be turns out to be a fine piece of workmanship
-img: "./static/images/project1.png"
+img: "/static/images/project1.png"
 tags: works
 ---
 ## Vlaio
@@ -20,7 +20,7 @@ As more and more consumers are buying online, it becomes increasingly important 
         <p>In the original version, our developers built <strong>a dynamic multi-step test with a complex scoring system behind it</strong>. The fact that not all questions were always asked, and therefore answered, made the scoring system quite complex. Once finished, the retailers received <strong>a PDF report</strong> with an overall score as well as a score for each category (website, email marketing, social media and e-commerce). They could always continue to complete the e-scan where they left it or edit their current result without having to start all over again. In the current version, retailers not only receive a PDF report, but also a <strong>neatly arranged dashboard</strong> that shows their scores.</p>
     </div>
     <div class="col">
-        <img src={{"./static/images/vlaio2.png" | url}} alt="E-scan" width="80%">
+        <img src={{"/static/images/vlaio2.png" | url}} alt="E-scan" width="80%">
     </div>
 </div>
 
@@ -29,7 +29,7 @@ We also linked an email automation system to the test results. So, **based on th
 
 So much for the easy part. **Things got more challenging when people changed tracks**, as their digital score improved along the way. In those cases, the email automation system needs to move them to a different automated journey and adapt the messaging. With each email, the system automatically checks whether the user’s score still corresponds to his or her automated journey or not and whether someone has already received the email or not. **The ultimate goal of this complex email automation system is that all retailers always receive emails relevant to their knowledge level**.
 
-<img src={{"./static/images/vlaio3.png" | url}} alt="Sitemap" width="100%">
+<img src={{"/static/images/vlaio3.png" | url}} alt="Sitemap" width="100%">
 
 **Such complex email automation only works if the emails themselves are crystal clear to the user.** The copy has to make it clear why the user has received the email and, of course, it has to encourage the retailer to effectively act on the tips and tricks. Because the order of the emails is not the same for every user and not all users receive all emails, writing out each email would take up a lot of time. Instead, we created separate 'snippets' that can be mixed and matched for each email, based on the user’s track. The structure of each email always consists of an introduction, a tip with video and introductory text, more tips with links to the website, relevant training courses for the future and an invitation to retake the test.
 
@@ -44,7 +44,7 @@ So much for the easy part. **Things got more challenging when people changed tra
         </ul>
     </div>
     <div class="col">
-        <img src={{"./static/images/vlaio4.png" | url}} alt="Visitor statistics" width="100%">
+        <img src={{"/static/images/vlaio4.png" | url}} alt="Visitor statistics" width="100%">
     </div>
 </div>
 

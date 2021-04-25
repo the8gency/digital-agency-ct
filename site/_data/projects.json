@@ -2,50 +2,50 @@
     
     {
  
-        "img": "./static/images/project3.png",
+        "img": "/static/images/project3.png",
         "title": "AXI",
         "subTitle":"Reinventing AXI: from four different brands to a coherent one",
         "link": "https://www.axi.be/",
-        "logo": "./static/images/axi.svg"
+        "logo": "/static/images/axi.svg"
     },
     {
  
-        "img": "./static/images/extremis1.jpg",
+        "img": "/static/images/extremis1.jpg",
         "title": "Extremis",
         "subTitle":"Interlinking at best on Extremis' brand-new website",
         "link": "https://www.extremis.com/en/",
-        "logo": "./static/images/extremis.svg"
+        "logo": "/static/images/extremis.svg"
     },
     {
  
-        "img": "./static/images/project2.jpg",
+        "img": "/static/images/project2.jpg",
         "title": "VLAIO",
         "subTitle":"Complex email automation flows for hetinternetookuwzaak.be turns out to be a fine piece of workmanship",
         "link": "https://www.vlaio.be/nl",
-        "logo": "./static/images/vlaio.svg"
+        "logo": "/static/images/vlaio.svg"
     },
     {
  
-        "img": "./static/images/febelfin1.jpg",
+        "img": "/static/images/febelfin1.jpg",
         "title": "Febelfin",
         "subTitle":"Connecting with the Next Generation of Finance",
         "link": "https://www.febelfin.be/nl",
-        "logo": "./static/images/febelfin.svg"
+        "logo": "/static/images/febelfin.svg"
     },{
  
-        "img": "./static/images/visit-flanders1.png",
+        "img": "/static/images/visit-flanders1.png",
         "title": "Visit Flanders",
         "subTitle":"Virtual museum tours reaching 2.474.550 art lovers in 94 countries",
         "link": "https://www.visitflanders.com/en/?country=nl_BE",
-        "logo": "./static/images/visit-flanders.svg"
+        "logo": "/static/images/visit-flanders.svg"
     },
     {
  
-        "img": "./static/images/firestone2.jpg",
+        "img": "/static/images/firestone2.jpg",
         "title": "Firestone",
         "subTitle":"Inspiring architects with roofs that shape the future",
         "link": "https://www.firestonebpe.com/en",
-        "logo": "./static/images/firestone.svg"
+        "logo": "/static/images/firestone.svg"
     }
    
 ] 

@@ -2,7 +2,7 @@
 layout: layouts/work.njk
 title: Firestone
 subTitle: Inspiring architects with roofs that shape the future
-img: "./static/images/project6.png"
+img: "/static/images/project6.png"
 tags: works
 ---
 
@@ -22,7 +22,7 @@ Architects and construction engineers typically work with materials they know we
 
 We turned this valuable input into a strategic roadmap and a creative brief, which allowed us to develop an optimal solution. Introducing: Form5, an inspirational content platform with all you need to know about EPDM.
 
-<img src={{"./static/images/firestone1.png" | url}} alt="Firestone design" width="100%">
+<img src={{"/static/images/firestone1.png" | url}} alt="Firestone design" width="100%">
 
 Form5 is a website with in-depth, editorial content created for architects and construction experts who are looking for relevant inspiration and information. When developing the concept, we took an approach that puts customers first, rather than the product. Traditionally, a manufacturer exhibits the product and talks about its benefits in an inside-out way, requiring the audience to look for more information, inspiration or examples of application themselves. Especially in the early stages of the journey, such flow proves to be counter productive.
 
@@ -37,7 +37,7 @@ Since the website is focusing on product awareness and inspiration, Firestone br
 In order to generate awareness around EPDM and Form5 itself, we produced a set of 100+ digital assets that cover different steps in the customer journey, including the visual search for inspiration. For example, we created “Building IDs”, digital cards that combine beautiful photography with information about the project. Something architects usually need to look up themselves in many steps when trying to find out more about the projects they like.
 
 <figure>
-    <video src={{"./static/images/firestone1.mp4" | url}} width="100%" controls>
+    <video src={{"/static/images/firestone1.mp4" | url}} width="100%" controls>
 </figure>
 
 The assets will be used in a smart marketing approach that reaches architects on Facebook, LinkedIn, Instagram and Pinterest. Always keeping the research findings in mind, we thought out a well-considered targeting and the moments when we could reach out to  architects by tapping into their inspiration search habits. That’s why we combined more ‘classic’ platforms such as Facebook and LinkedIn together with very visual platforms like Pinterest and Instagram, that were often mentioned during the research phase. 

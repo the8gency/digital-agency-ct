@@ -2,7 +2,7 @@
 layout: layouts/work.njk
 title: AXI
 subTitle: "Reinventing AXI: from four different brands to a coherent one"
-img: "./static/images/project3.png"
+img: "/static/images/project3.png"
 tags: works
 ---
 
@@ -19,7 +19,7 @@ As their request was twofold, different profiles within cT² were called to acco
 
 Within AXI, there was a lack of coherence: different identities, overlapping services and fragmented marketing efforts. So, **the biggest challenge was to come forward, together, as a strong player**. How did we tackle this problem?
 
-<img src={{'./static/images/axi1.png' | url}} width="100%" alt="AXI Schema 1">
+<img src={{'/static/images/axi1.png' | url}} width="100%" alt="AXI Schema 1">
 
 We looked at it from a customer point of view and started exploring outside in: we held **stakeholder interviews** (with employees as well as customers) and made a **competitive analysis** based on the positioning of their brands. We mapped out where all four brands were located on the market landscape. As a group, it appeared they had a strong position as an end-to-end IT partner, hence their existing brand manifesto ‘Uw end-to-end IT expert’ (literally: ‘Your end-to-end IT expert’). They decided to reposition themselves by combining the best of all four worlds: the allround character of AXI and the innovative character of LoQutus, Ground lion and Elegio.
 
@@ -31,7 +31,7 @@ Next, we conducted a **Google Analytics audit** and **keyword research** to look
         <p><strong>Since we had to make tough choices in terms of brand architecture and there was no immediate consensus of opinion within the company, we wanted to underpin our proposal with thorough market research (conducted by iVox)</strong>. We asked iVox to focus completely on IT people with decision-making rights in the health, retail, government, services and industry sector in Belgium and the Netherlands. First, they were asked some questions about brand awareness. What is the value of each brand (before we discard it)? Next, they were asked about what they expect from a collaboration with an IT partner. What are they looking for in an IT partner? </p>
     </div>
     <div class="col">
-        <img src={{'./static/images/axi2.jpg' | url}} width="100%" alt="">
+        <img src={{'/static/images/axi2.jpg' | url}} width="100%" alt="">
     </div>
 </div>
 
@@ -50,7 +50,7 @@ All of this resulted in a hands-on **communication strategy**. First, we tackled
 
 **In the meantime, they also reached a consensus on their new brand name: AXI, which would function as the corporate brand for all brands, services and products**. Of course, the identity of AXI has been completely renewed and refocused, so that all employees can identify with the new brand and customers have a clear point of contact. Their sub-branded services and products are now named AXI Strategy and AXI Solutions (AXI + name product/service).
 
-<img src={{'./static/images/axi3.png' | url}} width="100%" alt="AXI - Schema 2">
+<img src={{'/static/images/axi3.png' | url}} width="100%" alt="AXI - Schema 2">
 
 
 <br>
