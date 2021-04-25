@@ -2107,7 +2107,7 @@ body {
 .contact-section h3, .contact-section h4 {
   font-weight: 400;
 }
-.contact-section__card input, .contact-section__card textarea {
+.contact-section__card input, .contact-section__card textarea, .contact-section__card select {
   padding: 0.5rem;
   width: 100%;
 }
