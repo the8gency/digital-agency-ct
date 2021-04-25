@@ -1,12 +1,22 @@
 {
     "title": "Home",
-    "subdomain": "the8gency",
+    "subdomain": "cT² Digital Agency",
     "domain": "Associate Degree in Computer Programming",
-    "url": "https://the8gency.github.io/11tyio-boilerplate",
-    "description": "Get great at designing amazing websites and mobile applications with high-performance code and neat graphics. In the Associate Degree in Computer Programming you will learn all the tricks of the digital trade.",
-    "author": {
-        "name": "Philippe De Pauw - Waterschoot",
-        "email": "philippe.depauw@arteveldehs.be"
-    },
+    "url": "https://the8gency.github.io/cT-squared",
+    "description": "Digital Agency in Ghent here to assist you in establishing your digital presence.",
+    "authors": [
+        {
+            "name": "Thabisa Dingani",
+            "email": "thabisa.dingani@student.arteveldehs.be"
+        },
+        {
+            "name": "Charlotte Delvaux",
+            "email": "charlotte.delvaux@student.artevelde.be"
+        },
+        {
+            "name": "Tahmina Rasoli",
+            "email": "tahmina.rasoli@the8gency.be"
+        }
+    ],
     "image": "/static/images/logo.jpg"
 }

@@ -1,0 +1,15 @@
+.team-page{
+    @include fancy-spacing;
+    .card__team{
+        margin-bottom: 3rem;
+        background-color:#f3f3f3;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    @media(min-width:60rem){
+        .card__team{
+            // width: 21rem;
+        }
+    }
+}

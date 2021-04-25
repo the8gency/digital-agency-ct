@@ -1,0 +1,37 @@
+.jumbotron{
+    @media screen and (min-width: 48rem) {
+        height:40rem;
+    }
+    background-image: url("../../static/images/bg.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:$ahs-white;
+    @include fancy-center;
+    &__inner{
+        color:$ahs-white;
+        @include fancy-center;
+        a{
+            text-decoration: none;
+        }
+        
+        h1{
+            font-size:3rem
+        }
+        h2{
+            font-size:1.2rem;
+            width:100%;
+            font-weight:400;
+        }
+        @media(min-width:60rem) {
+            
+        h1{
+            font-size:4rem
+        }
+        h2{
+            font-size:1.5rem;
+            width:50%;
+        }
+        }
+    }
+}

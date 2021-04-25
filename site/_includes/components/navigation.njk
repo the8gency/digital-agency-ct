@@ -1,4 +1,4 @@
-<nav class="col nav">
+<!-- <nav class="col nav">
 {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({
     listElement: "ul",
     listItemElement: "li",
@@ -9,4 +9,39 @@
     activeKey: eleventyNavigation.key,
     showExcerpt: false
 }) | safe }}
+</nav> -->
+
+<nav class="nav col">
+    {% set navPages = collections.all | eleventyNavigation %}
+    <button class="btn-tertiary nav__toggle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <i class="fas fa-bars fa-2x"></i>
+    </button>
+
+    <div class="mobile nav--mobile hidden" id="navbarSupportedContent">
+        <ul class="nav__list--col">
+            {%- for entry in navPages %}
+
+            <li{% if entry.url == page.url %} 
+            class="nav__list-item nav__list-item--active" {% endif %}
+            class="nav__list-item">
+                <a class="nav-link" href="{{ entry.url | url }}" title="{{entry.title}}">{{ entry.title }}</a>
+            </li>
+
+            {%- endfor %}
+        </ul>
+    </div>
+
+    <div class="collapse nav--collapse">
+        <ul class="nav__list">
+            {%- for entry in navPages %}
+
+            <li{% if entry.url == page.url %} 
+            class="nav__list-item nav__list-item--active"{% endif %}
+            class="nav__list-item">
+                <a class="nav-link" href="{{ entry.url | url }}" title="{{entry.title}}">{{ entry.title }}</a>
+            </li>
+
+            {%- endfor %}
+        </ul>
+    </div>
 </nav>

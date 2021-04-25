@@ -1,6 +1,52 @@
 ---
-layout: layouts/base.njk
+layout: layouts/service.njk
 eleventyNavigation:
-  key: Services
-  order: 2
+    key: Services
+    order: 2
 ---
+{# <div class="container">
+    <div class="row">
+        <div class="col">
+            <h2 class="">Services</h2>
+            <div class="row">
+                {% for service in services %}
+                <div class="col">
+                    <div class="card">
+                        <span class="card__info">
+                            <h5 class="card__info--title">{{ service.title }}</h5>
+                            <p class="card__info--summary">{{ service.summary }}</p>
+                        </span>
+                        <img class="card-img" src="{{ service.img | url }}" alt="" />
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div> #}
+
+<div class="services-page">
+ <div class="row">
+        <div class="col">
+            <div class="container">
+                <h2 class="">What We Do</h2>
+                <p class="subTitle">We care about your product as much as you do We can are about your product as much as you do We care about your product as much as you do We can are about your product as much as you do </p>
+            </div>
+            <ul class="col">
+                {% for service in services %}
+                    <li class="card row services-page__card">
+                        <div class="container">
+                        <span class="card__info">
+                            <h5 class="card__info--title">{{ service.title }}</h5>
+                            <p class="">{{ service.summary }}</p>
+                        </span>
+                        <span class="">
+                            <img class="" src="{{ service.img | url }}" alt=""/>
+                        </span>
+                        </div> 
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

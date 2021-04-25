@@ -1,7 +1,12 @@
 .footer {
-    border-top: 1px solid $gray-200;
-    background: darken($purple, 12%);
+    background: #040303;
     color: $gray-100;
 
     padding: #{$spacing * 4px} 0;
+
+    &__copy{
+        p{
+            text-align: right;
+        }
+    }
 }
