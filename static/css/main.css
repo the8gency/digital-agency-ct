@@ -1716,8 +1716,22 @@ mark,
 }
 
 .clients {
-  padding: 2rem 0 0;
-  background-color: #F5F5F5;
+  padding: 1rem;
+  background-color: #000000;
+}
+.clients__list {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.clients__list--item {
+  padding: 1rem;
+  width: 15%;
+}
+.clients__list img {
+  width: 100%;
 }
 
 .jumbotron {
@@ -1726,16 +1740,12 @@ mark,
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
+  height: 38rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-}
-@media screen and (min-width: 48rem) {
-  .jumbotron {
-    height: 40rem;
-  }
 }
 .jumbotron__inner {
   color: #ffffff;
@@ -1763,6 +1773,11 @@ mark,
   .jumbotron__inner h2 {
     font-size: 1.5rem;
     width: 50%;
+  }
+}
+@media screen and (min-width: 48rem) {
+  .jumbotron {
+    height: 40rem;
   }
 }
 
@@ -2030,7 +2045,7 @@ mark,
   align-items: center;
   margin-bottom: 1rem;
 }
-.team .card-jofuntion {
+.team .card-jobfuntion {
   color: #aaaaaa;
 }
 .team__img {
@@ -2040,7 +2055,8 @@ mark,
 }
 .team__body {
   margin-top: 0.5rem;
-  width: 15rem;
+  width: 18rem;
+  padding: 0 1rem;
 }
 .team__social-link {
   margin: 0 0.5rem;
