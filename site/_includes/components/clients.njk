@@ -1,5 +1,5 @@
  {% for project in projects %}
     <li class="clients__list--item">
-       <a href="{{project.link}}""><img src="{{project.logo}}" alt="{{project.subTitle}}"></a>
+       <a href="{{project.link}}""><img src="{{project.logo | url}}" alt="{{project.subTitle}}"></a>
     </li>
 {% endfor %}
