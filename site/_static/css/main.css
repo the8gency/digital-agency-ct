@@ -1922,14 +1922,14 @@ mark,
   }
 }
 .work__list img {
-  width: 90%;
+  width: 100%;
   height: 15rem;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   transition: 0.2s;
 }
 .work__list img:hover {
-  transform: scale(0.8);
+  transform: scale(1.2);
 }
 
 .work-page .card {

@@ -27,14 +27,14 @@
         }
 
         img{
-            width:90%;
+            width:100%;
             height:15rem;
-            object-fit: contain;
+            object-fit: cover;
             object-position: center;
             transition: .2s;
         }
         img:hover {
-            transform: scale(.8);
+            transform: scale(1.2);
           }
    }
 }
