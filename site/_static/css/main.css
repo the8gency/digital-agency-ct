@@ -1721,7 +1721,6 @@ mark,
 }
 
 .jumbotron {
-  height: 40rem;
   background-image: url("../../static/images/bg.jpg");
   background-position: right;
   background-repeat: no-repeat;
@@ -1732,6 +1731,11 @@ mark,
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+@media screen and (min-width: 48rem) {
+  .jumbotron {
+    height: 40rem;
+  }
 }
 .jumbotron__inner {
   color: #ffffff;
@@ -1918,14 +1922,14 @@ mark,
   }
 }
 .work__list img {
-  width: 100%;
+  width: 90%;
   height: 15rem;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   transition: 0.2s;
 }
 .work__list img:hover {
-  transform: scale(1.2);
+  transform: scale(0.8);
 }
 
 .work-page .card {
@@ -1984,6 +1988,14 @@ mark,
   position: relative;
   padding-bottom: 11rem;
   transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 48rem) {
+  .services ul .card {
+    flex-direction: row;
+    width: 46%;
+  }
 }
 .services ul .card__info--summary {
   width: 65%;

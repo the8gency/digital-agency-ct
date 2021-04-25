@@ -8,9 +8,11 @@
     },
     {
  
-        "img": "/static/images/project2.jpg",
+        "img": "/static/images/extremis1.jpg",
         "title": "Extremis",
-        "subTitle":"Interlinking at best on Extremis' brand-new website"
+        "subTitle":"Interlinking at best on Extremis' brand-new website",
+        "link": "https://www.extremis.com/en/",
+        "logo": "/static/images/extremis.svg"
     },
     {
  
@@ -22,7 +24,9 @@
     {
         "img": "/static/images/project5.png",
         "title": "Visit Flanders",
-        "subTitle":"Virtual museum tours reaching 2.474.550 art lovers in 94 countries"
+        "subTitle":"Virtual museum tours reaching 2.474.550 art lovers in 94 countries",
+        "link": "https://www.visitflanders.com/en/?country=nl_BE",
+        "logo": "/static/images/visit-flanders.svg"
     },
     {
  
@@ -34,7 +38,9 @@
  
         "img": "/static/images/project6.png",
         "title": "Firestone",
-        "subTitle":"Inspiring architects with roofs that shape the future"
+        "subTitle":"Inspiring architects with roofs that shape the future",
+        "link": "https://www.firestonebpe.com/en",
+        "logo": "/static/images/firestone.svg"
     }
    
 ] 
