@@ -14,10 +14,16 @@
         cursor: pointer;
         
         &--item{       
-            width:30%;
+            width:100%;
             height:15rem;
             overflow: hidden;
             
+        }
+
+        @media(min-width:60rem) {
+            &--item{
+                width:30%; 
+            }
         }
 
         img{
@@ -34,7 +40,7 @@
 }
 
 .work-page {
-    @include fancy-center;
+    //@include fancy-center;
     
     .card {
         background-color: #f5f5f5;
@@ -69,3 +75,4 @@
         }
     }
 }
+

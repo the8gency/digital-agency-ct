@@ -7,4 +7,8 @@
     color:$ahs-white;
     margin-top:8rem;
     @include fancy-center;
+        h3{
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+        }
 }

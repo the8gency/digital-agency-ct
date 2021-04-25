@@ -3,4 +3,10 @@
     color: $gray-100;
 
     padding: #{$spacing * 4px} 0;
+
+    &__copy{
+        p{
+            text-align: right;
+        }
+    }
 }

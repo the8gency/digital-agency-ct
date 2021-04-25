@@ -16,29 +16,44 @@
         padding: 0;
         .card{
             background-color:#f3f3f3;
-            width: 46%;
+            width: 100%;
             margin:1rem;
             padding: 2rem;
             position: relative;
-            padding-bottom: 7rem;
+            padding-bottom: 11rem;
             transition: .4s;
 
             &__info{
                 &--summary{
-                    width: 15rem;  
+                    width: 65%;  
                 }
             }
 
             img{
-                width:10rem;
+                width:8rem;
                 position: absolute;
                 bottom: 2rem;
                 right: 2rem;
 
             }
             &:hover {
-                background-color: $ahs-green;
+                // hover means item is clickable and the green for the hover is also too dark.
+                //background-color: $ahs-green;
             }
         }
+        @media(min-width:60rem) {
+            .card{
+                width: 46%;
+                padding-bottom: 7rem;
+            }
+            &__info{
+                &--summary{
+                    width: 15rem;  
+                }
+            }
+
+        }
+       
     }
+    
 }
