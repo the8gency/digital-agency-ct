@@ -4,10 +4,12 @@
 
     .card{
         @include fancy-column;
+
         margin-bottom: 1rem;
-        &-jofuntion{
+        &-jobfuntion{
             color: rgb(170, 170, 170)
         }
+       
     }
 
     &__img{
@@ -18,7 +20,8 @@
     }
     &__body{
         margin-top:0.5rem;
-        width:15rem
+        width:18rem;
+        padding:0 1rem; 
     }
     &__social-link {
         margin: 0 .5rem;

@@ -24,6 +24,16 @@ description: cT² is a Digital Agency. Through hard work and sacrifice we make b
     {% include "components/projects.njk" %}
 {% endif %}
 
+<section class="clients">
+        <div class="row">
+            <div class="col">
+                <h2 class="sr-only">our clients</h2>
+                <ul class="row clients__list">
+                    {% include "components/clients.njk" %}
+                </ul>
+            </div>
+        </div>
+    </section>  
 
     <section class="team">
         <div class="row">
@@ -36,7 +46,7 @@ description: cT² is a Digital Agency. Through hard work and sacrifice we make b
                                 <img class="card-img-top team__img" src="{{ person.img }}" alt="{{ person.firstName }} {{ person.lastName }}">
                                 <div class="card-body team__body">
                                     <h5 class="card-title">{{ person.firstName }} {{ person.lastName }}</h5>
-                                    <p class="card-text card-jofuntion">{{ person.jobFunction }}</p>
+                                    <p class="card-text card-jobfuntion">{{ person.jobFunction }}</p>
                                 </div>
                             </div>
                         </div>

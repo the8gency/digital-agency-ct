@@ -1,12 +1,11 @@
 .jumbotron{
-    @media screen and (min-width: 48rem) {
-        height:40rem;
-    }
+    
     background-image: url("../../static/images/bg.jpg");
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     color:$ahs-white;
+    height:38rem;
     @include fancy-center;
     &__inner{
         color:$ahs-white;
@@ -33,5 +32,8 @@
             width:50%;
         }
         }
+    }
+    @media screen and (min-width: 48rem) {
+        height:40rem;
     }
 }
