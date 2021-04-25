@@ -2,7 +2,7 @@
 layout: layouts/work.njk
 title: Visit Flanders
 subTitle: Virtual museum tours reaching 2.474.550 art lovers in 94 countries
-img: "/static/images/project5.png"
+img: "./static/images/project5.png"
 tags: works
 ---
 
@@ -42,7 +42,7 @@ At the end of 2019 and early 2020, we ran a major campaign to promote the Van Ey
 That’s how ‘Stay At Home Museum’ was born: a digital Flemish Masters exhibition experience, guided by curators of top Flemish museums. In 30-minute live tours, we presented Van Eyck, Bruegel, Rubens, Ensor and Hof van Busleyden collection. Each tour was followed by live Q&As with experts. A personal treatment normally reserved for royals and presidents.
 
 
-<img src={{"/static/images/visit-flanders1.png" | url}} width="100%" alt="The stay at home museum">
+<img src={{"./static/images/visit-flanders1.png" | url}} width="100%" alt="The stay at home museum">
 
 ### All the world's a stage
 

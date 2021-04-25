@@ -2,7 +2,7 @@
 layout: layouts/work.njk
 title: Febelfin
 subTitle: Connecting with the Next Generation of Finance
-img: "/static/images/project4.jpg"
+img: "./static/images/project4.jpg"
 tags: works
 ---
 
@@ -11,7 +11,7 @@ tags: works
 
 **Febelfin Academy, the leading training institute of the financial sector in Belgium, develops top-notch learning solutions for finance professionals. As an extension of their established activity scope, the organization decided to reach out to the younger generations in order to warm them up for the financial sector. We supported them in their war on talent with both an awareness campaign that presents career possibilities by reintroducing the financial sector and a banking simulation game organized in fifteen Universities of Applied Sciences across Belgium. Enter the Next Generation of Finance!**
 
-<img src={{'/static/images/project4.jpg' | url}} width="100%" alt="Make it Fun">
+<img src={{'./static/images/project4.jpg' | url}} width="100%" alt="Make it Fun">
 
 
 The popularity of the financial sector as a career choice has been drastically deteriorated. **Due to many stereotypes the sector has to cope with, younger generations (millennials as well as Generation Zers) are questioning its attractiveness.** Undeserved, because the financial sector develops fast and is a highly digitalized and innovative environment with many interesting career opportunities. And no, we are not only talking about the ones strictly related to working with digits. Maybe you are a real people person? In that case, the job Relationship Manager might be your calling. Are you rather a digital native? Then you will settle in as a Customer Journey Specialist. Really, there is a perfect match for everyone in finance!
@@ -28,7 +28,7 @@ The popularity of the financial sector as a career choice has been drastically d
 
 We wanted to address young people on their own terms, treating them as individuals full of potential whose input in the financial sector will be valuable. One way of doing that was to open up the black box of the financial sector. And guess what? You won’t come across bankers who are greedy and merciless. This is not The Wolf of Wall Street! By showing them what it really means to work there, we could not only debunk clichés, but also make them see that the financial sector can be building the future. **We developed our communication framework around the tagline ‘Be the Next Generation of Finance’, which plays on both the progress and the generational change that young people can bring to the sector.**
 
-<img src={{"/static/images/febelfin1.jpg" | url}} width="100%" alt="">
+<img src={{"./static/images/febelfin1.jpg" | url}} width="100%" alt="">
 
 
 * The copy on the key visuals presents a set of bold statements that directly address the most common stereotypes in finance.

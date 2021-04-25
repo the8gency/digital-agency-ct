@@ -2,7 +2,7 @@
 layout: layouts/work.njk
 title: Extremis
 subTitle: Interlinking at best on Extremis' brand-new website
-img: "/static/images/project2.jpg"
+img: "./static/images/project2.jpg"
 tags: works
 ---
 
@@ -11,19 +11,19 @@ tags: works
 
 **[Extremis](https://www.extremis.be/en/), an international family business that produces design furniture, was experiencing difficulties in addressing all of their target audiences, being end users on the one hand and architects, designers, retail dealers ... on the other hand, on one and the same website. The website was not easy to navigate and customers did not easily find what they were looking for. To get all target audiences as fast as possible to the right information, Extremis made an appeal to cT². We gave their website a clean and spacious front-end as well as an intuitive and powerful back-end. Together, we ran in sprints every two weeks to achieve the top-notch website that Extremis has today - and that with the help of our unique 4S methodology (strategy, story, system and scale).**
 
-<img src={{'/static/images/extremis1.jpg' | url}} alt="Extremis Header" width="100%"/>
+<img src={{'./static/images/extremis1.jpg' | url}} alt="Extremis Header" width="100%"/>
 
 ## Translating strategy into a UX concept
 
 **Our job was to translate the existing strategy into a UX concept, that was both technically and visually strong**. The ideal scenario had to focus on B2C as well as B2B needs - a challenge we did not shy away from. We had to inspire them, inform them and help them take the next step. When zooming in on their specific needs, we noticed that end customers were looking for inspiration, while e.g. architects needed very specific information, like technical drawings, in order to be able to meet the specific standards asked for in tenders. That's why we made **a significant modification to the website**: we made a distinction between 'collections', where end customers can find the inspiration they are looking for, and 'products', specific pages per product with all the technical details that an architect could need. 
 
 <figure>
-    <video src={{'/static/images/extremis1.mp4' | url}} width="100%" autoplay=true repeat=infinite></video>
+    <video src={{'./static/images/extremis1.mp4' | url}} width="100%" autoplay=true repeat=infinite></video>
 </figure>
 
 <div class="row">
     <div class="col">
-        <img src={{'/static/images/extremis2.jpg' | url}} alt="Overview with related products and collections" width="100%">
+        <img src={{'./static/images/extremis2.jpg' | url}} alt="Overview with related products and collections" width="100%">
     </div>
     <div class="col">
         <h2>The strength of the UX concept lies in the interconnection.</h2>
