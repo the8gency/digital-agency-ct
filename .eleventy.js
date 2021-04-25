@@ -11,7 +11,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'site/_static/images': 'static/images' });
   eleventyConfig.addPassthroughCopy({ 'site/_static/js': 'static/js' });
   eleventyConfig.addPassthroughCopy({ 'site/humans.txt': 'humans.txt' });
-  eleventyConfig.addPassthroughCopy({ 'site/robots.txt': 'robots.txt' });
 
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
