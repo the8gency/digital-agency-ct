@@ -5,7 +5,7 @@
                 <ul class="row work__list ">
                     {% for project in projects %}
                         <li class="work__list--item">
-                            <a href="{{project.link}}"><img class="card-img" src="{{ project.img | url }}" alt="{{ project.title }}"/></a>
+                            <a href="{{project.link}}" target="_blank" ><img class="card-img" src="{{ project.img | url }}" alt="{{ project.title }}" target="_blank"/></a>
                         </li>
                     {% endfor %}
                 </ul>
