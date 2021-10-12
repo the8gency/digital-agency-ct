@@ -1,9 +1,5 @@
  {% for project in projects %}
     <li class="clients__list--item">
-<<<<<<< HEAD
-       <a href="{{project.link}}" target="_blank"> <img src="{{project.logo}}" alt="{{project.subTitle}}"></a>
-=======
        <a href="{{project.link}}" target="_blank" rel="noopener noreferrer"><img src="{{project.logo | url}}" alt="{{project.subTitle}}"></a>
->>>>>>> ad5cb0ce78f924295b03d765c3fab2cd9bf624a6
     </li>
 {% endfor %}
